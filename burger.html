@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Burger Factory</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <ul id="navigation">
+            <li><a href="index.html" title="Accueil">Accueil</a></li>
+            <li><a href="burger.html" title="Création Burger">Création Burger</a></li>
+            <li><a href="ingredient.html" title="Création Ingrédient">Création Ingrédient</a></li>
+            <li><a href="information.html" title="Qui sommes-nous">Qui sommes-nous ?</a></li>
+        </ul>
+        <div class="row1">
+            <div class="element1">
+                <img src="images/52.png" height="100%" width="100%" alt="Votre connexion ne vous permet pas de voir la photo"/> 
+            </div>
+            <form method="get" action="#">
+                <fieldset class="burger">
+                    <legend><strong>Créer votre Burger</strong></legend>
+                    <p>
+                        <label for="id_login">Nom du Burger</label> :
+                        <input type="text" placeholder="Texas Burger"  name="nom" id="id_nom" required/>
+                    </p>
+                    <p>
+                        <label class="alignLabel" for="ingredient_1">Ingrédient 1</label>
+                        <select name="ingredient_1" id="ingredient_1" value="#" required>
+                            <option value=""  ></option>
+                            <option value="Steak">Steak</option>
+                            <option value="Tomate">Tomate</option>
+                            <option value="Salade">Salade</option>
+                            <option value="Fromage">Fromage</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label class="alignLabel" for="ingredient_2">Ingrédient 2</label>
+                        <select name="ingredient_2" id="ingredient_2" value="#" required>
+                            <option value=""  ></option>
+                            <option value="Steak">Steak</option>
+                            <option value="Tomate">Tomate</option>
+                            <option value="Salade">Salade</option>
+                            <option value="Fromage">Fromage</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label class="alignLabel" for="ingredient_3">Ingrédient 3</label>
+                        <select name="ingredient_3" id="ingredient_3" value="#" required>
+                            <option value=""  ></option>
+                            <option value="Steak">Steak</option>
+                            <option value="Tomate">Tomate</option>
+                            <option value="Salade">Salade</option>
+                            <option value="Fromage">Fromage</option>
+                        </select>
+                    </p>  
+                    <p>
+                        <input type="submit" value="Créer le Burger" />
+                    </p>
+                </fieldset>
+            </form>
+            <p id="texte" class="texte"></p>
+        <div class="element">
+            <img src="images/52.png" height="100%" width="100%" alt="Votre connexion ne vous permet pas de voir la photo"/> 
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/burger.js"></script>
+</body>
+</html>

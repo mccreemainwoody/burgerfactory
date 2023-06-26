@@ -1,0 +1,179 @@
+
+
+
+#navigation {
+    margin: 2% ;
+    padding: 0% ;
+    list-style: none ;
+    text-align: center ;
+}
+
+#navigation li {
+    display: inline ;
+    margin-right:  1%;
+    color: #fff ;
+    background: #444444 ;
+}
+
+#navigation li a {
+    padding: 0.4%  1.5% ;
+    background: #444444 ;
+    color: #fff ;
+    border: 2px solid #FFFFFF ;
+    font: 1em "Trebuchet MS",Arial,sans-serif ;
+    line-height: 1em ;
+    text-align: center ;
+    text-decoration: none ;
+}
+
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+    background: #444444 ;
+    text-decoration: none ;
+}
+
+
+
+body {
+    background-image:url(images/1.jpg);
+    color: #fff;
+}
+
+
+.row{
+    display: block;
+    background-color: #2F2F2F;
+    width: 800px;
+    height: auto;
+    margin: auto;
+    padding: 10px 10px 30px 10px;
+    border: 5px solid #FFFFFF;
+
+}
+
+.row1{
+    display: block;
+    background-color: #2F2F2F;
+    width: 800px;
+    height: auto;
+    margin: auto;
+    padding: 10px 10px 30px 10px;
+    border: 5px solid #FFFFFF;
+
+}
+
+
+
+.alignLabel {
+    display:block;
+    width: 115px;
+    float:left;
+}
+
+
+
+.element1{
+    display: block;
+    background-color: #2F2F2F;
+    width: 700px;
+    height: 100px;
+    margin-left: 45px;
+    margin-top: 40px;
+    border: 5px solid #FFFFFF;
+
+}
+
+.element{
+    display: block;
+    background-color: #2F2F2F;
+    width: 700px;
+    height: 100px;
+    margin-left: 45px;
+    border: 5px solid #FFFFFF;
+
+}
+
+.diaporama{
+    display: block;
+    background-color: #2F2F2F;
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top:50px;
+    border: 5px solid #FFFFFF;
+
+}
+
+.texte{
+    text-align: center;
+    margin: auto auto 30px;
+}
+
+.succes{
+    color: green;
+}
+
+.erreur{
+    color: red;
+}
+
+.burger{
+    display: block;
+    width: 400px;
+    height: 200px;
+    margin-left: 200px;
+    margin-top:50px;
+    margin-bottom: 50px; 
+    border: 5px solid #FFFFFF;
+
+}
+
+.ingredient{
+    display: block;
+    width: 400px;
+    height: 140px;
+    margin-left: 200px;
+    margin-top:50px;
+    margin-bottom: 50px; 
+    border: 5px solid #FFFFFF;
+
+}
+
+
+.element3{
+    display: block;
+    background-color: #2F2F2F;
+    width: 700px;
+    height: 170px;
+    margin-left: 45px;
+    margin-top: 40px;
+    border: 5px solid #FFFFFF;
+
+}
+
+
+.element4{
+    display: block;
+    background-color: #2F2F2F;
+    width: 700px;
+    height: auto;
+    margin-left: 45px;
+    margin-top: 40px;
+    border: 5px solid #FFFFFF;
+    color: white;
+}
+
+.element5{
+    display: block;
+    background-color: #2F2F2F;
+    width: 400px;
+    height: 200px;
+    margin-left: 210px;
+    margin-top: 10px;
+    border: 5px solid #FFFFFF;
+    color: white;
+}
+
+.texte{
+    text-align: center;
+    font-size: 32px;
+}

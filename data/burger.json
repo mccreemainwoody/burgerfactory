@@ -1,0 +1,65 @@
+{
+  "dir": "burger",
+  "images": [
+    {
+      "name": "slide1",
+      "ext": "jpg",
+      "nom_entier": "slide1.jpg",
+      "texte": "Burger A"
+    },
+    {
+      "name": "slide2",
+      "ext": "jpg",
+      "nom_entier": "slide2.jpg",
+      "texte": "Burger B"
+    },
+    {
+      "name": "slide3",
+      "ext": "jpg",
+      "nom_entier": "slide3.jpg",
+      "texte": "Burger C"
+    },
+    {
+      "name": "slide4",
+      "ext": "jpg",
+      "nom_entier": "slide4.jpg",
+      "texte": "Burger D"
+    },
+    {
+      "name": "slide5",
+      "ext": "jpg",
+      "nom_entier": "slide5.jpg",
+      "texte": "Burger E"
+    },
+    {
+      "name": "slide6",
+      "ext": "jpg",
+      "nom_entier": "slide6.jpg",
+      "texte" : "Burger F"
+    },
+    {
+      "name": "slide7",
+      "ext": "jpg",
+      "nom_entier": "slide7.jpg",
+      "texte" : "Burger G"
+    },
+    {
+      "name": "slide8",
+      "ext": "jpg",
+      "nom_entier": "slide8.jpg",
+      "texte" : "Burger H"
+    },
+    {
+      "name": "slide9",
+      "ext": "jpg",
+      "nom_entier": "slide9.jpg",
+      "texte" : "Burger I"
+    },
+    {
+      "name": "slide10",
+      "ext": "jpg",
+      "nom_entier": "slide10.jpg",
+      "texte" : "Burger J"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Burger Factory</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <ul id="navigation">
+            <li><a href="index.html" title="Accueil">Accueil</a></li>
+            <li><a href="burger.html" title="Création Burger">Création Burger</a></li>
+            <li><a href="ingredient.html" title="Création Ingrédient">Création Ingrédient</a></li>
+            <li><a href="information.html" title="Qui sommes-nous">Qui sommes-nous ?</a></li>
+        </ul>
+        <div class="tab">
+            <div class="row">
+                <form method="get" id="form">
+                    <fieldset class="ingredient">
+                        <legend><strong>Créer votre Ingrédient</strong></legend>
+                        <p>
+                            <label class="alignLabel" for="id_nom">Nom</label>
+                            <input type="text" placeholder="Tomate" name="nom" id="id_nom" required/>
+                        </p>
+                        <p>
+                            <label class="alignLabel" for="id_numero">Quantité</label>
+                            <input type="number" placeholder="12" name="numero" id="id_numero" required/>
+                        </p>
+                        <p>
+                            <input type="submit" value="Créer l'ingrédient" />
+                        </p>
+                    </fieldset>
+                </form>
+
+                <p id="texte" class="texte"></p>
+                 <div class="element5">
+                    <img src="images/12.png" height="100%" width="100%" alt="Votre connexion ne vous permet pas de voir la photo"/> 
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery-3.6.1.js"></script>
+        <script src="js/global.js"></script>
+        <script src="js/ingredient.js"></script>
+    </body>
+</html>
